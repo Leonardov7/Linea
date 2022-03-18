@@ -43,8 +43,8 @@ class HomeStart extends State<Home> {
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(minimumSize: Size(400, 50)),
                 onPressed: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => Login()));
+                  print('Ingreso Login');
+                  Navigator.push(context, MaterialPageRoute(builder: (_) => Login()));
                 },
                 child: Text('Ingresar'),
               ),
